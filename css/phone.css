@@ -1,0 +1,50 @@
+#home{
+    flex-wrap: wrap;
+}
+
+#home #home-content{
+    width: 90vw;
+    font-size: 1em;
+}
+
+#about #about-content{
+    width: 95vw;
+    font-size: 1em;
+}
+
+#project ul{
+    width: 95vw;
+}
+
+#project ul li p{
+    font-size: 1em;
+}
+
+#project ul li h3{
+    font-size: 1.2em;
+}
+
+#project ul li img{
+    width: 40vw;
+}
+
+#hobbies{
+     width: 95vw;
+}
+
+#hobbies #cooking h3{
+    font-size: 1.2em;
+}
+
+#hobbies #photography h3{
+    font-size: 1.2em;
+}
+
+#hobbies #cooking , #hobbies #photography {
+    width: 95vw;
+    font-size: 1em;
+}
+
+footer{
+    margin: 0 10px;
+}

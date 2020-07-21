@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.navbar-brand span{
+    font-size: 20px;
+    padding: 0px 30px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.nav-item{
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+/* Home */
+
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#home span{
+    margin-top: 80px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#home #home-content{
+    width: 600px;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 120px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* About */
+
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about #pic span{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#about #pic{
+    display: flex;
+    flex-direction: column;
+}
+
+#about #pic img{
+    height: 280px;
+    border-radius: 200px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#about #about-content{
+    text-align: center;
+    font-size: 20px;
+    width: 800px;
+    margin-bottom: 120px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Projects */
+
+#project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#project span{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#project ul{
+    width: 800px;
+}
+
+#project ul li{
+    text-align: left;
+    margin-left: 30px;
+}
+
+#project ul li p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#project ul li h3{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#project ul li img{
+    display: block;
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Hobbies */
+
+#hobbies{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+}
+
+#hobbies span{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#hobbies #cooking, #hobbies #photography{
+    text-align: left;
+    width: 800px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#hobbies #cooking h3, #hobbies #photography h3{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#cookingCarousel{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#photoCarousel{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    margin: 0 190px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+footer ul{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #808080;
+}
+
+footer ul li a:hover{
+    color: #808080;
+}
+
+footer .fa-github, footer .fa-facebook, footer .fa-linkedin,footer .fa-envelope-o{
+    font-size: 30px;
+    margin: 0 30px 5px 0;
+}
+
+footer span{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer #icon a{
+    color: #808080;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+footer #icon a:hover{
+    color: red;
+}
+
+
+
