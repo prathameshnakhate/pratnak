@@ -12,35 +12,39 @@
     font-size: 1em;
 }
 
-#project ul{
+ #project #other ul, #project #course ul, #project #research ul{
     width: 95vw;
 }
 
-#project ul li p{
+#project #other ul li p, #project #course ul li p, #project #research ul li p{
     font-size: 1em;
 }
 
-#project ul li h3{
+#project #other ul li h3, #project #course ul li h3, #project #research ul li h3{
     font-size: 1.2em;
 }
 
-#project ul li img{
+#project #other ul li img, #project #course ul li img, #project #research ul li img{
     width: 40vw;
 }
 
-#hobbies{
+#project #other, #project #course, #project #research{
      width: 95vw;
 }
 
-#hobbies #cooking h3{
+#project #research h3{
     font-size: 1.2em;
 }
 
-#hobbies #photography h3{
+#project #course h3{
     font-size: 1.2em;
 }
 
-#hobbies #cooking , #hobbies #photography {
+#project #other h3{
+    font-size: 1.2em;
+}
+
+#project #research , #project #course, #project #other{
     width: 95vw;
     font-size: 1em;
 }
